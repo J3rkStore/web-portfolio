@@ -6,6 +6,7 @@
 body {
     margin-left: 30px;
     margin-right: 30px;
+    margin-bottom: 70px;
     display: flex;
     flex-direction: column;
     background: linear-gradient(var(--bg-grad));
@@ -47,6 +48,11 @@ nav ul li a:hover {
     color: #ffffff;
 }
 
+footer {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 .banner {  
     background-color: #d7d8da;
     background-image: url(./images/space-face.png);
@@ -79,6 +85,8 @@ nav ul li a:hover {
     color: #d7d8da;
     position: relative;
     left: 60px;
+    margin-right: 20px;
+    margin-top: 20px;
     /*border: 2px solid #dad3d3;*/
 }
 
@@ -91,7 +99,6 @@ nav ul li a:hover {
     background-repeat:no-repeat;
     margin-right: 20px;
     margin-top: 20px;
-    justify-content: flex-end;
     bottom: 10px;
     font-family: 'Times New Roman', Times, serif;
     color: #ffffff;
@@ -109,11 +116,16 @@ nav ul li a:hover {
     flex-basis: 80%;
 }
 
-.embedded-player {
-    border: 0; 
-    margin-top: 10px;
-    width: 400px; 
-    height: 550px;
+.players {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+#cum-fight-vid {
+    width:978px;
+    height:550px;
 }
 
 #prework-study-guide {
