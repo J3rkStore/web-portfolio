@@ -74,10 +74,39 @@ nav ul li a:hover {
 }
 
 .portfolio-section .content {
+    display: flex;
+    flex-wrap: wrap;
     color: #d7d8da;
     position: relative;
     left: 60px;
-    border: 2px solid #dad3d3;
+    /*border: 2px solid #dad3d3;*/
+}
+
+.work-item {
+    display: flex;
+    min-width: 30vw;
+    min-height: 30vh; 
+    background-size:contain;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    margin-right: 20px;
+    margin-top: 20px;
+    justify-content: flex-end;
+    bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    text-shadow: 1px 2px #000000;
+}
+
+.work-item:hover {
+    font-size: 200%;
+    font-weight: 900;
+
+}
+
+.work-item:first-child {
+    min-height: 35vw;
+    flex-basis: 80%;
 }
 
 .embedded-player {
@@ -85,4 +114,20 @@ nav ul li a:hover {
     margin-top: 10px;
     width: 400px; 
     height: 550px;
+}
+
+#prework-study-guide {
+    background-image: url("../assets/images/prework-study-guide-screenshot.png");
+}
+
+#accessibility-refactor {
+    background-image: url("../assets/images/accessibility-refactor.PNG");
+}
+
+#third-thing {
+    background-image: url("../assets/images/third-thing.png");
+}
+
+#fourth-thing {
+    background-image: url("../assets/images/fourth-thing.png");
 }
